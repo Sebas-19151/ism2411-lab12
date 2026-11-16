@@ -94,3 +94,4 @@ timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 with open(log_path, "a", encoding="utf-8") as log_file:
     log_file.write(f"{timestamp} | Total revenue: ${total_revenue:.2f}\n")
 print(f"Added one entry to {log_path}.")
+
